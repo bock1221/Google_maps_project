@@ -1,0 +1,44 @@
+html {
+	height: 100%
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+#map-canvas {
+	height: 100%
+}
+
+#lakewood {
+	position: absolute;
+	right: 100px;
+	top: 3px;
+	background-color: orange;
+	z-index: 1;
+}
+#options {
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-color: silver;
+	border-right:thick;
+}
+#placeinput {
+	position:absolute;
+	top: 40px;
+   left:20px;
+
+}
+#place{
+	text-align: center;
+}
+#find{
+	background-color: orange;
+	z-index: 1;
+
+}
+#tree {
+	position:absolute;
+	top:115px;
+}
